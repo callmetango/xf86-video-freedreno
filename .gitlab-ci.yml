@@ -1,0 +1,6 @@
+variables:
+    FDO_UPSTREAM_REPO:  'xorg/driver/xf86-video-freedreno'
+    FREEBSD_SKIP:       'true'  # this driver is Linux-only
+
+include:
+    - local:    '.gitlab-ci/common/xorg-driver.yml'
